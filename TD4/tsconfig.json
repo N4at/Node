@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                     /* Définir la version ECMAScript cible */
+    "module": "CommonJS",                /* Spécifier le module code génération */
+    "outDir": "./dist",                  /* Répertoire de sortie */
+    "rootDir": "./src",                  /* Répertoire racine des fichiers source */
+    "strict": true,                      /* Activer toutes les vérifications strictes */
+    "esModuleInterop": true              /* Activer l'interopérabilité avec les modules ES */
+  },
+  "include": ["src/**/*"]                /* Inclure tous les fichiers TypeScript dans src */
+}
